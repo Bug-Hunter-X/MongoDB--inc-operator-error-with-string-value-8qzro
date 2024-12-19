@@ -1,0 +1,1 @@
+This repository demonstrates a common error when using the $inc operator in MongoDB. The $inc operator is used to increment a numerical field in a document.  However, passing a string value to $inc results in an error. This example shows how to fix this by ensuring a numerical value is used for incrementation.
